@@ -1,3 +1,7 @@
+header{
+    padding: 15px;
+}
+
 header nav{
     display: flex;
     justify-content: space-between;
@@ -10,14 +14,23 @@ header nav > div{
     align-items: center;
 }
 
-header nav ul{
+header nav > div ul{
     display: flex;
     gap: 10px;
 
 }
 
+header nav > div ul a{
+    color: black;
+}
+
 .btn{
     padding: 5px 15px;
+}
+
+.btn--blue{
+    background-color: #0161FF;
+    color: white;
 }
 
 main{
