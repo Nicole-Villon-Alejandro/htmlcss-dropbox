@@ -34,7 +34,7 @@ header nav > div ul a{
 }
 
 main{
-    background-color: aqua;
+    background-color: #B4D0E7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,10 +46,15 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
 
 }
 
+
+section .container{
+    display: flex;
+    justify-content: space-between;
+
+}
 
 footer{
     background-color: black;
