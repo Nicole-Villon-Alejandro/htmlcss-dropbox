@@ -16,6 +16,9 @@ header nav ul{
 
 }
 
+.btn{
+    padding: 5px 15px;
+}
 
 main{
     background-color: aqua;
@@ -33,3 +36,10 @@ main{
     flex-direction: column;
 
 }
+
+
+footer{
+    background-color: black;
+}
+
+
