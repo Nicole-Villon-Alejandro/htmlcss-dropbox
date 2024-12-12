@@ -45,10 +45,9 @@ header nav > div ul a{
 
 .container-80{
     max-width: 80%;
+    margin: 0 auto;
 
 }
-
-
 
 .container-90{
     width: 90%;
@@ -118,7 +117,48 @@ header nav > div ul a{
 
 .business-plan__radio--check{
     border: 2px solid;
+    background-color: #0161FF;
 }
+
+#business-plan__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+#business-plan__cards > div{
+    flex-grow: 1;
+    flex-basis: calc(100% / 3 - 10px);
+}
+
+.business-plan__card{
+    border: 1px solid lightslategray;
+}
+
+.business-plan__card--top{
+    text-align: center;
+}
+
+.business-plan__card--top,
+.business-plan__card--botton{
+    padding: 20px;
+
+}
+
+.business-plan__card--botton{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.business-plan__card--botton{
+    width: 90%;
+    border: 1px solid lightslategray;
+}
+
 
 /*main{
     display: flex;
@@ -127,18 +167,16 @@ header nav > div ul a{
     flex-direction: column;
 }*/
 
-.flex{
+/*.flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-}
+}*/
 
 
 section .container{
     display: flex;
     justify-content: space-between;
-
 }
 
 footer{
