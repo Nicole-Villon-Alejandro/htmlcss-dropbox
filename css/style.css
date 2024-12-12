@@ -41,8 +41,14 @@ header nav > div ul a{
 .jumbotron h1{
     font-size: 3rem;
     margin-bottom: 20px;
+}
+
+.container-80{
+    max-width: 80%;
 
 }
+
+
 
 .container-90{
     width: 90%;
@@ -60,6 +66,7 @@ header nav > div ul a{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    font-size: 1rem;
 
 }
 
@@ -67,28 +74,58 @@ header nav > div ul a{
     width: 80%;
 }
 
-.jumbotron__text1{
+.jumbotron__text i{
     font-size: 3rem;
 
 }
 
 
-
 .jumbotron__img{
-    flex-basis: 70%;
+    flex-basis: 60%;
 }
 
 .jumbotron__img img{
     width: 100%;
 }
 
-main{
+/*.business-plan h2{
+    margin-bottom: 20px;
+}*/
+
+.business-plan__radios{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    
+        
+}
+
+.business-plan__choice{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.business-plan__radio{
+    height: 10px;
+    aspect-ratio: 1;
+    border: 1px solid lightslategray;
+    border-radius: 50%;
+
+}
+
+.business-plan__radio--check{
+    border: 2px solid;
+}
+
+/*main{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-}
+}*/
 
 .flex{
     display: flex;
