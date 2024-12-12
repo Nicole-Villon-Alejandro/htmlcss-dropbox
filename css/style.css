@@ -116,7 +116,7 @@ header nav > div ul a{
 }
 
 .business-plan__radio--check{
-    border: 2px solid;
+    border: 3px solid;
     background-color: #0161FF;
 }
 
@@ -125,7 +125,7 @@ header nav > div ul a{
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
@@ -145,7 +145,7 @@ header nav > div ul a{
 
 .business-plan__card--top,
 .business-plan__card--botton{
-    padding: 20px;
+    padding: 10px;
 
 }
 
@@ -226,9 +226,6 @@ header nav > div ul a{
     flex-basis: calc(100% / 3 - 10px);
 }
 
-
-
-
 /* nota per il futuro: se tolgo i link di reset e debug si può apprezzare di più il lavoro svolto*/
 
 
@@ -260,8 +257,15 @@ footer > div{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap:10px
+    gap:10px;
 }
 
+/*footer > div{
+    flex-basis: calc(100% / 5 - 10px);
+    flex-grow: 1;
+}*/
 
+footer a{
+    color: white;
+}
 
